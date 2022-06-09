@@ -5,7 +5,7 @@ const app = express();
 const server = require('http').createServer(app);
 
 const io = require('socket.io')(server);
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname+"/public")));
 
 io.on('connection', function(socket) {
     socket.on('newuser', function(username) {
@@ -20,6 +20,6 @@ io.on('connection', function(socket) {
         socket.broadcast.emit("chat", message);;
     });
 
-})
+});
 
 server.listen(5000);

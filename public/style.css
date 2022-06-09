@@ -6,16 +6,14 @@
 }
 
 body{
-    background: #005C97;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: fallback for old browsers linear-gradient(to right, #0072ff, #00c6ff);
+    background: Chrome 10-25, Safari 5.1-6 ;
+    background: Firefox 16+ Chrome 26+ Opera 12+ Safari 7+;
     font-family: "Roboto", sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
-    
-      color:rgb(15, 1, 1);
+    color:rgb(15, 1, 1);
     }
 
     .app {
